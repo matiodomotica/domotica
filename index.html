@@ -3,28 +3,39 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Matio - Soluciones de Domótica</title>
-    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css">
+    <title>Matio - Tu hogar inteligente</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link href="styles.css" rel="stylesheet">
 </head>
 <body>
-    <nav class="navbar navbar-expand-lg navbar-light bg-light">
-        <div class="container-fluid">
-            <a class="navbar-brand" href="#">Matio</a>
-        </div>
-    </nav>
-
-    <header class="container mt-5">
+    <header class="text-center bg-light py-5">
         <h1>Bienvenido a Matio</h1>
         <p>Transformamos tu hogar en un espacio inteligente y eficiente.</p>
     </header>
 
-    <section class="container mt-5">
-        <h2>Servicios</h2>
-        <p>Ofrecemos soluciones personalizadas que se adaptan a tus necesidades y presupuesto.</p>
+    <section class="container my-5">
+        <h2 class="text-center">Nuestros Servicios</h2>
+        <div class="row text-center">
+            <div class="col-md-4">
+                <img src="kitchen.jpg" alt="Cocina Inteligente" class="img-fluid">
+                <h3>Cocina Inteligente</h3>
+                <p>Controla todos tus electrodomésticos desde cualquier lugar.</p>
+            </div>
+            <div class="col-md-4">
+                <img src="office.jpg" alt="Oficina Automatizada" class="img-fluid">
+                <h3>Oficina Automatizada</h3>
+                <p>Mejora tu productividad con un ambiente de trabajo optimizado.</p>
+            </div>
+            <div class="col-md-4">
+                <img src="bedroom.jpg" alt="Dormitorio Conectado" class="img-fluid">
+                <h3>Dormitorio Conectado</h3>
+                <p>Disfruta del máximo confort y seguridad en tu espacio personal.</p>
+            </div>
+        </div>
     </section>
 
-    <section class="container mt-5">
-        <h2>Contacto</h2>
+    <section class="container my-5">
+        <h2 class="text-center">Contáctanos</h2>
         <form id="contact-form">
             <div class="mb-3">
                 <label for="name" class="form-label">Nombre</label>
@@ -42,7 +53,7 @@
         </form>
     </section>
 
-    <footer class="container mt-5 mb-5">
+    <footer class="text-center bg-light py-4">
         <p>© Matio - Todos los derechos reservados</p>
     </footer>
 
